@@ -76,7 +76,12 @@ body {
         max-width: 80vw;
     }
 }
-
+@media screen and (max-width: 650px) {
+    .img img, canvas {
+        max-width: 80vw;
+        margin: -20px;
+    }
+}
     /* .filter .saturate {
         filter: saturate(80%);
     } */
